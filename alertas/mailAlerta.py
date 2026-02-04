@@ -5,8 +5,8 @@ from email.mime.application import MIMEApplication
 import os
 
 def enviarAlertaMail(ruta_video, sala, fecha_hora, destinatario):
-    remitente = "jbbuthet@gmail.com"
-    password = "rvcq wsuc byab wnhw"
+    remitente = "introduzca su mail de google"
+    password = "introduzca su contraseña de google (formato: **** **** **** ****)"
 
     # Crear el correo
     msg = MIMEMultipart()
@@ -36,4 +36,5 @@ def enviarAlertaMail(ruta_video, sala, fecha_hora, destinatario):
         server.quit()
         print("Correo enviado exitosamente")
     except Exception as e:
+
         print(f"Error al enviar correo: {e}")
