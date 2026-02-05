@@ -31,13 +31,5 @@ Destinatarios: Agrega el email y los números de WhatsApp (formato internacional
 Iniciar: Haz clic en "Iniciar Detección". Se abrirá la cámara y comenzará el monitoreo.
 Salir: Presiona la tecla q en la ventana del video o haz clic en "Salir" en la interfaz.
 
-📂 Estructura del Código
-appDetectarCaida: Clase principal de la interfaz gráfica.
-iniciarDeteccion: Bucle principal que procesa los frames de la cámara.
-calcularAngulo: Función matemática para determinar la disposición de los miembros del cuerpo.
-detectarLevantarse: Lógica que verifica si la persona recuperó la verticalidad tras la caída para cancelar alertas.
-grabarVideo: Módulo encargado de generar el archivo .mp4 de evidencia.
-alertas/: Carpeta que contiene los scripts de integración con Mail y WhatsApp.
-
 ⚠️ Notas de Seguridad y Privacidad
 Este sistema es una herramienta de asistencia. No reemplaza la supervisión médica profesional. Asegúrese de contar con el consentimiento de las personas monitoreadas, ya que el sistema procesa imágenes de video y almacena grabaciones locales.
